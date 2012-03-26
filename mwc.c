@@ -287,6 +287,7 @@ void main(int argc, char **argv)
 		}
 
 	}
+poptFreeContext(optCon);
 /*
 	while((opt = getopt(argc,argv, "dlfhe")) != -1)
 	{
